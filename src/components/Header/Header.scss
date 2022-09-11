@@ -1,0 +1,19 @@
+$paddingValue: 10px;
+
+.header {
+  background-color: rgb(247, 204, 255);
+  padding: $paddingValue; 
+
+  &:hover {
+    background-color: rgb(251, 226, 255);
+  }
+
+  &-button {
+    color: rgb(255, 151, 232);
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+}
